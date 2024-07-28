@@ -84,3 +84,145 @@ nav li a{
 .banner-content{
     max-width:599.05px ;
 }
+
+/* main  */
+section{
+    background-color: black;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: bold;
+    color:#FFFFFF ;
+}
+.section-description{
+  font-size: 14px;
+  color:#777777;
+}
+main{
+    max-width: 1044px;
+    margin: 0 auto;
+}
+/* habit */
+.habit{
+border-radius: none;
+padding: 130px 150px;
+text-align: center;
+margin-top: 10px;
+}
+.habit-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.item-description{
+    font-weight: 600;
+    color:#777777; ;
+}
+.circle{
+    border-radius: 50%;
+}
+/* run */
+.section-titles{
+    font-size: 48px;
+    font-weight: bold;
+    color:#FFFFFF ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.item-descriptions{
+
+    font-weight: 600;
+    color: #777777;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn-primary{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.image{
+    width: 90%;
+    height: 100%;
+    border-radius: 18px;
+    margin-right: 10px;
+
+}
+.run{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
+     max-width: 100%;
+}
+/* BMI Section  */
+.text-center{
+    text-align: center;
+}
+/* BMI calculator */
+.BMI-Calculator-Chart{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF ;
+}
+.section-five{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+     max-width: 100%;
+}
+.calculator{
+   background-color:  #222 ;
+   color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.bmi-chart, .calculator {
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1, h2 {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+form {
+    display: grid;
+    gap: 5px;
+}
+
+label {
+    display: block;
+}
+
+input, select, button {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+button {
+    background-color: ; 
+    color: #fff;
+    cursor: pointer;
+    background-color: #E6533C;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 46px;
+    border: none;
+}
+
